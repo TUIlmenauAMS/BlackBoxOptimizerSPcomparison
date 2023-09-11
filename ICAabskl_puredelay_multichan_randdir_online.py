@@ -3,7 +3,7 @@
 #Version 2, Output: 2 channels. Needs rectangular unmixing matrices,
 #with a Laplacian for the equality of input power and output power.
 #Using the optimization of random directions and comparison black box optimizers.
-#Choose optimizers after line 336 
+#Choose optimizers after line 366 
 #Gerald Schuller, July 2020, comparison August 2023
 
 import numpy as np
