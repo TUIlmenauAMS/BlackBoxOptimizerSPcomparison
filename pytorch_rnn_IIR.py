@@ -22,7 +22,7 @@ import numpy as np
 import scipy.signal
 #import soundfloat
 import os
-#Choose optimizer after line 208:
+#Choose optimizer after line 214
 #import optimrandomdir_pytorch
 import optimrandomdir_pytorch_parallel as optimrandomdir_pytorch
 import GLD_fast_pytorch 
@@ -212,13 +212,13 @@ print("starting loss:", loss_fn(Ypred, target).item())
 
 #List: randdir, gld, mmes, r1nes, lmmaes, snes, bes, adam
 
-#optimizer_choice='randdir' #optimization of random directions, loss: X0= 0.09 or 5.19, Duration of optimization: 20. Is clearly the best.
+optimizer_choice='randdir' #optimization of random directions, loss: X0= 0.09 or 5.19, Duration of optimization: 20. Is clearly the best.
 #optimizer_choice='gld'
 #optimizer_choice='mmes'
 #optimizer_choice='r1nes'
 #optimizer_choice='snes'
 #optimizer_choice='bes'
-optimizer_choice='adam'
+#optimizer_choice='adam'
 
 #print("Start optimization") 
 print('Starting training the neural network with '+optimizer_choice)
