@@ -26,7 +26,8 @@ pip install pypop7
 
 deactivate
 
-To let the jupyter notebook "sourceSeprationBlackBoxComp.ipynb" run in Colab is more convenient, because it is its own envirnmonent and installs everything needed, but it is usually slower.
+To let the jupyter notebook "sourceSeprationBlackBoxComp.ipynb" run in Colab is more convenient, because it is its own envirnmonent and installs everything needed, but it is usually slower:
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TUIlmenauAMS/BlackBoxOptimizerSPcomparison/blob/main/sourceSeprationBlackBoxComp.ipynb)
 
 
