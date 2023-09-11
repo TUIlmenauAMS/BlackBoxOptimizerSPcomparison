@@ -2,8 +2,9 @@
 #microphone signals as relative impulse response, with offline update as optimization.
 #Version 2, Output: 2 channels. Needs rectangular unmixing matrices,
 #with a Laplacian for the equality of input power and output power.
-#Using the optimization of random directions in an online fasshion, in parallel in the beginning
-#Gerald Schuller, July 2020
+#Using the optimization of random directions and comparison black box optimizers.
+#Choose optimizers after line 336 
+#Gerald Schuller, July 2020, comparison August 2023
 
 import numpy as np
 import scipy.signal
@@ -310,7 +311,7 @@ def separation_randdir(mixfile, plot=True):
    #from pypop7.optimizers.cem.dcem import DCEM # cannot import name 'LML' from 'lml'
    #"""
    from lipschitz_constant import lipschitz_constant 
-   from LNCR import LNCR
+   #from LNCR import LNCR
    
    samplerate, X = wav.read(mixfile)
    print("X.shape=", X.shape)
@@ -560,14 +561,14 @@ if __name__ == '__main__':
    
    #mixfile= "stereovoices.wav"
    #mixfile="/home/schuller/Documents/ConfJournalsVortr3/2021-11Asilomar/SourcesSoftware/mix16000cubefantasy.wav"
-   #mixfile="/home/schuller/Documents/ConfJournalsVortr3/2021-11Asilomar/SourcesSoftware/mix16000noise.wav"
-   mixfile="/home/schuller/Documents/ConfJournalsVortr3/2021-11Asilomar/SourcesSoftware/mix16000cubenoise.wav"
+   mixfile="mix16000noise.wav"
+   #mixfile="mix16000cubenoise.wav"
    #mixfile="mix16000.wav"
    #mixfile="stereomusicnoise.wav"
    #mixfile="musicnoiselivingroom.wav"
    #Unmixing, plot=False writes to file instead:
    for trial in range(10):
-      processingtime, X_sep= separation_randdir(mixfile, plot=False)
+      processingtime, X_sep= separation_randdir(mixfile, plot=True)
    
    print("Duration of unmixing:", processingtime, "sec.")
    
