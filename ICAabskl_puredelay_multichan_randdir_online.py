@@ -568,7 +568,7 @@ if __name__ == '__main__':
    #mixfile="musicnoiselivingroom.wav"
    #Unmixing, plot=False writes to file instead:
    for trial in range(10):
-      processingtime, X_sep= separation_randdir(mixfile, plot=True)
+      processingtime, X_sep= separation_randdir(mixfile, plot=False)
    
    print("Duration of unmixing:", processingtime, "sec.")
    
