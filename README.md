@@ -12,13 +12,20 @@ The optimizers can be chosen in the main programs, by uncommenting the appropria
 For the text files in this repository, the hardware was a processor with 8 CPU cores, each running at 1.8 GHz. Observe that with Colab you will get somewhat different results because it usually just provides 2 cores. 
 Hence it is recommended to let it run locally, but then it likely needs a virtual environment  for pypop7. A virtual environment can be created, for instance, with
 
-pip install virtualenv\\
+pip install virtualenv
+
 virtualenv pypop7
+
 #activate:
+
 source ~/pypop7/bin/activate
-pip3 install pypop7
+
+pip install pypop7
+
 #deactivate with:
+
 deactivate
 
+To let the jupyter notebook "sourceSeprationBlackBoxComp.ipynb" run in Colab is more convenient, because it is its own envirnmonent and installs everything needed, but it is usually slower.
 
 Gerald Schuller, September 2023
