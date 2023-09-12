@@ -30,5 +30,9 @@ To let the jupyter notebook "sourceSeprationBlackBoxComp.ipynb" run in Colab is 
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TUIlmenauAMS/BlackBoxOptimizerSPcomparison/blob/main/sourceSeprationBlackBoxComp.ipynb)
 
+The program "ICAabskl_puredelay_multichan_randdir_online.py" has a mode which plots instead of writing the results to file. It can be set in its line 285, with the function call with "plot=True". It can also play the separated sound if on line 575 soundplay=True. It needs pyaudio, which Colab doesn't have, so it needs to be run locally.
+
+The program "pytorch_rnn_IIR.py" has a demo mode, where it announces and plots and plays the generated sound, instead of just writing the results to file. It can be enabled in its line 34 with demomode=True" and enabling "import soundfloat" on line 23. Soundfloat needs the module "pyaudio", so it needs to be run locally.
+
 
 Gerald Schuller, September 2023
