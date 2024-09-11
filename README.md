@@ -1,7 +1,11 @@
 # BlackBoxOptimizerSPcomparison
-A comparison of Black Box optimizers for source separation and RNN
+A comparison of Black Box optimizers for source separation and RNN.
 
-This repository contains the software, models, and results text files for a comparison of different Black Box optimizers, including the Random Directions algorithm.
+This repository is for the paper and poster: 
+
+Gerald Schuller: "Fast Black-Box Optimizers for Low Delay Audio Source Separation", ICASSP 2024 satellite workshop HSCMA 2024, Seoul, Korea.  
+
+It contains the software, models, and results text files for a comparison of different Black Box optimizers, including the Random Directions algorithm.
 
 The main program are: 
 - ICAabskl_puredelay_multichan_randdir_online.py for the source separation optimizers
