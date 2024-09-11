@@ -32,7 +32,7 @@ To let the jupyter notebook "sourceSeprationBlackBoxComp.ipynb" run in Colab is 
 
 The program "ICAabskl_puredelay_multichan_randdir_online.py" has a mode which plots instead of writing the results to file. It can be set in its line 285, with the function call with "plot=True". It can also play the separated sound if on line 575 soundplay=True. It needs pyaudio, which Colab doesn't have, so it needs to be run locally if audio output is desired.
 
-More Information and examples for the source separation example can be found in our repository 
+More Information and examples for the source separation application can be found in our repository 
 
 https://github.com/TUIlmenauAMS/LowDelayMultichannelSourceSeparation_Random-Directions_Demo
 
