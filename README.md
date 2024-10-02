@@ -1,10 +1,10 @@
 # BlackBoxOptimizerSPcomparison
 A comparison of Black Box optimizers for source separation and RNN.
 
-This repository is for the paper and poster: 
+This repository is for the [paper](HSCMA2024_SourceSeparation_na.pdf) and [poster](BlackBoxOptimPoster.pdf): 
 
 Gerald Schuller: "Fast Black-Box Optimizers for Low Delay Audio Source Separation", ICASSP 2024 satellite workshop HSCMA 2024, Seoul, Korea.  
-It also contains the slides for the [talk and New York University in September 2024:](BlackBoxOptimPresentation.pdf)
+It also contains the slides for the [talk and New York University in September 2024](BlackBoxOptimPresentation.pdf)
 
 It contains the software, models, and results text files for a comparison of different Black Box optimizers, including the Random Directions algorithm.
 
