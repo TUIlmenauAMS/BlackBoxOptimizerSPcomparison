@@ -12,7 +12,7 @@ Video demos for the talk:
   
 [video2](random_directions_animation_shifted_center.mp4)
 
-<img src="random_directions_animation_shifted_center.mp4" width="200">
+<video src='random_directions_animation_shifted_center.mp4' width=180/>
 
 This repository contains the software, models, and results text files for a comparison of different Black Box optimizers, including the Random Directions algorithm.
 
