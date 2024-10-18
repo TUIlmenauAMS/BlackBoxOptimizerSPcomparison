@@ -3,7 +3,7 @@ A comparison of Black Box optimizers for source separation and RNN.
 
 This repository is for the [paper](HSCMA2024_SourceSeparation_na.pdf) and [poster](BlackBoxOptimPoster.pdf): 
 
-Gerald Schuller: "Fast Black-Box Optimizers for Low Delay Audio Source Separation", ICASSP 2024 satellite workshop HSCMA 2024, Seoul, Korea, and my poster at the [Speech and Audio in the Northeast 2024](https://www.saneworkshop.org/sane2024/) Workshop. 
+Gerald Schuller: "Fast Black-Box Optimizers for Low Delay Audio Source Separation", ICASSP 2024 satellite workshop [HSCMA 2024](https://sites.google.com/view/hscma2024), Seoul, Korea, and my poster at the [Speech and Audio in the Northeast 2024](https://www.saneworkshop.org/sane2024/) Workshop. 
 It also contains the slides for the [talk at Tandom School of Engineering of New York University in September 2024](BlackBoxOptimPresentation.pdf)
 
 Video demos for the talk:
