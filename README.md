@@ -9,8 +9,6 @@ It also contains the slides for the [talk at Tandom School of Engineering of New
 Video demos for the talk:
 
 [![video1](random_directions_animation.gif)](random_directions_animation.mp4)
-
-<video src='random_directions_animation_shrinking_scale.mp4' width=180/>
   
 [video2](random_directions_animation_shrinking_scale.mp4)
 
