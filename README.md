@@ -6,7 +6,12 @@ This repository is for the [paper](HSCMA2024_SourceSeparation_na.pdf) and [poste
 Gerald Schuller: "Fast Black-Box Optimizers for Low Delay Audio Source Separation", ICASSP 2024 satellite workshop HSCMA 2024, Seoul, Korea.  
 It also contains the slides for the [talk at Tandom School of Engineering of New York University in September 2024](BlackBoxOptimPresentation.pdf)
 
-It contains the software, models, and results text files for a comparison of different Black Box optimizers, including the Random Directions algorithm.
+Video demos for the talk:
+[video1](random_directions_animation.mp4)
+
+[video2](random_directions_animation_shrinking_scale.mp4)
+
+This repository contains the software, models, and results text files for a comparison of different Black Box optimizers, including the Random Directions algorithm.
 
 The main program are: 
 - ICAabskl_puredelay_multichan_randdir_online.py for the source separation optimizers
