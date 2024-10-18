@@ -12,7 +12,7 @@ Video demos for the talk:
   
 [video2](random_directions_animation_shrinking_scale.mp4)
 
-<img src="random_directions_animation_shrinking_scale.mp4" width="200"
+<img src="random_directions_animation_shrinking_scale.mp4" width="200">
 
 This repository contains the software, models, and results text files for a comparison of different Black Box optimizers, including the Random Directions algorithm.
 
