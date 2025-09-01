@@ -53,5 +53,8 @@ https://github.com/TUIlmenauAMS/LowDelayMultichannelSourceSeparation_Random-Dire
 
 The program "pytorch_rnn_IIR.py" has a demo mode, where it announces and plots and plays the generated sound, instead of just writing the results to file. It can be enabled in its line 34 with demomode=True" and enabling "import soundfloat" on line 23. Soundfloat needs the module "pyaudio", so it needs to be run locally.
 
+We also have an "Optimization Mentor" chatbot for it, for answering questions on these topics:
 
-Gerald Schuller, September 2023
+https://chatgpt.com/g/g-67b4b5dee850819187546a7cd383c5ce-optimization-mentor
+
+Gerald Schuller, September 2025
